@@ -37,87 +37,111 @@ export const routesConfig = [
     component: 'Dashboard',
   },
   {
-    path: '/customer',
-    component: 'Customer',
+    path: '/leads',
+    component: 'Leads',
   },
   {
-    path: '/orders',
-    component: 'Order',
+    path: '/pipeline',
+    component: 'Pipeline',
   },
   {
-    path: '/invoice',
-    component: 'Invoice/index',
-  },
-  {
-    path: '/invoice/create',
-    component: 'Invoice/InvoiceCreate',
-  },
-  {
-    path: '/invoice/read/:id',
-    component: 'Invoice/InvoiceRead',
-  },
-  {
-    path: '/invoice/update/:id',
-    component: 'Invoice/InvoiceUpdate',
-  },
-  {
-    path: '/invoice/pay/:id',
-    component: 'Invoice/InvoiceRecord',
+    path: '/items',
+    component: 'Items',
   },
   {
     path: '/quote',
-    component: 'Quote/index',
+    component: 'Quote',
   },
   {
-    path: '/quote/create',
-    component: 'Quote/QuoteCreate',
+    path: '/reminder',
+    component: 'Reminders',
   },
   {
-    path: '/quote/read/:id',
-    component: 'Quote/QuoteRead',
-  },
-  {
-    path: '/quote/update/:id',
-    component: 'Quote/QuoteUpdate',
+    path: '/analytics',
+    component: 'Analytics',
   },
   {
     path: '/payment/invoice',
     component: 'PaymentInvoice/index',
   },
   {
-    path: '/payment/invoice/create',
-    component: 'PaymentInvoice/PaymentInvoiceCreate',
+    path: '/customer',
+    component: 'Customer',
   },
-  {
-    path: '/payment/invoice/read/:id',
-    component: 'PaymentInvoice/PaymentInvoiceRead',
-  },
-  {
-    path: '/payment/invoice/update/:id',
-    component: 'PaymentInvoice/PaymentInvoiceUpdate',
-  },
-  {
-    path: '/employee',
-    component: 'Employee',
-  },
-  {
-    path: '/admin',
-    component: 'Admin',
-  },
-  {
-    path: '/settings',
-    component: 'Settings/Settings',
-  },
-  {
-    path: '/payment/mode',
-    component: 'PaymentMode',
-  },
-  {
-    path: '/settings/advanced',
-    component: 'AdvancedSettings',
-  },
-  {
-    path: '/profile',
-    component: 'Profile',
-  },
+  // {
+  //   path: '/orders',
+  //   component: 'Order',
+  // },
+  // {
+  //   path: '/invoice',
+  //   component: 'Invoice/index',
+  // },
+  // {
+  //   path: '/invoice/create',
+  //   component: 'Invoice/InvoiceCreate',
+  // },
+  // {
+  //   path: '/invoice/read/:id',
+  //   component: 'Invoice/InvoiceRead',
+  // },
+  // {
+  //   path: '/invoice/update/:id',
+  //   component: 'Invoice/InvoiceUpdate',
+  // },
+  // {
+  //   path: '/invoice/pay/:id',
+  //   component: 'Invoice/InvoiceRecord',
+  // },
+  // {
+  //   path: '/quote',
+  //   component: 'Quote/index',
+  // },
+  // {
+  //   path: '/quote/create',
+  //   component: 'Quote/QuoteCreate',
+  // },
+  // {
+  //   path: '/quote/read/:id',
+  //   component: 'Quote/QuoteRead',
+  // },
+  // {
+  //   path: '/quote/update/:id',
+  //   component: 'Quote/QuoteUpdate',
+  // },
+  // {
+  //   path: '/payment/invoice/create',
+  //   component: 'PaymentInvoice/PaymentInvoiceCreate',
+  // },
+  // {
+  //   path: '/payment/invoice/read/:id',
+  //   component: 'PaymentInvoice/PaymentInvoiceRead',
+  // },
+  // {
+  //   path: '/payment/invoice/update/:id',
+  //   component: 'PaymentInvoice/PaymentInvoiceUpdate',
+  // },
+  // {
+  //   path: '/employee',
+  //   component: 'Employee',
+  // },
+  // {
+  //   path: '/admin',
+  //   component: 'Admin',
+  // },
+  // {
+  //   path: '/settings',
+  //   component: 'Settings/Settings',
+  // },
+  // {
+  //   path: '/payment/mode',
+  //   component: 'PaymentMode',
+  // },
+  // {
+  //   path: '/settings/advanced',
+  //   component: 'AdvancedSettings',
+  // },
+  // {
+  //   path: '/profile',
+  //   component: 'Profile',
+  // },
 ];

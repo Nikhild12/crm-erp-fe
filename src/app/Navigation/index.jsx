@@ -22,13 +22,20 @@ import {
 
 const SIDEBAR_MENU = [
   { key: '/', icon: <DashboardOutlined />, title: 'Dashboard' },
-  { key: '/customer', icon: <CustomerServiceOutlined />, title: 'Customer' },
-  { key: '/orders', icon: <ShoppingCartOutlined />, title: 'Orders' },
-  { key: '/invoice', icon: <FileTextOutlined />, title: 'Invoice' },
+  { key: '/leads', icon: <CustomerServiceOutlined />, title: 'Leads' },
+  { key: '/pipeline', icon: <ShoppingCartOutlined />, title: 'Pipeline' },
+  { key: '/items', icon: <FileTextOutlined />, title: 'Items' },
   { key: '/quote', icon: <FileSyncOutlined />, title: 'Quote' },
-  { key: '/payment/invoice', icon: <CreditCardOutlined />, title: 'Payment Invoice' },
-  { key: '/employee', icon: <UserOutlined />, title: 'Employee' },
-  { key: '/admin', icon: <TeamOutlined />, title: 'Admin' },
+  { key: '/payment/invoice', icon: <CreditCardOutlined />, title: 'Invoice' },
+  { key: '/reminder', icon: <UserOutlined />, title: 'Reminder' },
+  { key: '/analytics', icon: <TeamOutlined />, title: 'Analytics' },
+  { key: '/customer', icon: <CustomerServiceOutlined />, title: 'Customer' },
+  // { key: '/orders', icon: <ShoppingCartOutlined />, title: 'Orders' },
+  // { key: '/invoice', icon: <FileTextOutlined />, title: 'Invoice' },
+  // { key: '/quote', icon: <FileSyncOutlined />, title: 'Quote' },
+  // { key: '/payment/invoice', icon: <CreditCardOutlined />, title: 'Payment Invoice' },
+  // { key: '/employee', icon: <UserOutlined />, title: 'Employee' },
+  // { key: '/admin', icon: <TeamOutlined />, title: 'Admin' },
 ];
 
 const SETTINGS_SUBMENU = [
