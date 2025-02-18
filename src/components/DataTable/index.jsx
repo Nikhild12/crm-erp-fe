@@ -28,6 +28,8 @@ export default function DataTable({ config, DropDownRowMenu, AddNewItem }) {
 
   const { pagination, items } = listResult;
 
+  console.log('list finished--', items);
+
   const dispatch = useDispatch();
 
   const handelDataTableLoad = useCallback((pagination) => {
@@ -37,6 +39,7 @@ export default function DataTable({ config, DropDownRowMenu, AddNewItem }) {
 
   useEffect(() => {
     dispatch(crud.list({ entity }));
+    console.log('list finished2--', items);
   }, []);
 
   const { expandedRowData, tableColumns, tableHeader } = useResponsiveTable(

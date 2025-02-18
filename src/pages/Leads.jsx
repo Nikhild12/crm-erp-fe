@@ -4,7 +4,7 @@ import CrudModule from '@/modules/CrudModule';
 import LeadCreationForm from '@/forms/LeadCreationForm';
 
 function Leads() {
-  const entity = 'client';
+  const entity = 'lead';
   const searchConfig = {
     displayLabels: ['leads'],
     searchFields: 'organization,dealer,territory',
@@ -50,7 +50,7 @@ function Leads() {
     },
     {
       title: 'Organization',
-      dataIndex: 'Organization',
+      dataIndex: 'organizationName',
     },
     {
       title: 'Contact Person Name',
@@ -58,7 +58,7 @@ function Leads() {
     },
     {
       title: 'Lead Owner',
-      dataIndex: 'leadOwner',
+      dataIndex: 'leadName',
     },
     {
       title: 'Dealer',

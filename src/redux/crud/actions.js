@@ -56,6 +56,8 @@ export const crud = {
             total: parseInt(data.pagination.count, 10),
           },
         };
+        console.log('data', data);
+
         dispatch({
           type: actionTypes.REQUEST_SUCCESS,
           keyState: 'list',

@@ -116,12 +116,12 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
       >
         <Input />
       </Form.Item> */}
-      <Form.Item
+      {/* <Form.Item
         label="GST Number"
         name="gstNo"
         rules={[
           {
-            type: 'email',
+            type: 'text',
             message: 'The input is not valid E-mail!',
           },
           {
@@ -135,7 +135,7 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         ]}
       >
         <Input />
-      </Form.Item>
+      </Form.Item> */}
       <Text>Organization Address</Text>
       <br />
       <br />
@@ -143,10 +143,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Organization Name"
         name="organizarionName"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'text',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -163,10 +163,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Address Line First"
         name="addressLineFirst"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -183,10 +183,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Address Line Second"
         name="addressLineSecond"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -203,10 +203,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Landmark"
         name="nearbyLandmark"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -228,10 +228,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="City"
         name="city"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -253,10 +253,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Country"
         name="country"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -281,10 +281,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="First Name"
         name="firstName"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -306,10 +306,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Last Name"
         name="lastName"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -331,10 +331,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Contact Number"
         name="contactNumber"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -351,10 +351,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Email Id"
         name="emailId"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -371,10 +371,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Designation"
         name="designation"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
@@ -396,10 +396,10 @@ export default function LeadCreationForm({ isUpdateForm = false }) {
         label="Department"
         name="department"
         rules={[
-          {
-            type: 'email',
-            message: 'The input is not valid E-mail!',
-          },
+          // {
+          //   type: 'email',
+          //   message: 'The input is not valid E-mail!',
+          // },
           {
             required: true,
             message: 'Please input your E-mail!',
